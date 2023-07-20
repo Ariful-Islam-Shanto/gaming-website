@@ -52,7 +52,7 @@ ul li a {
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: bottom left;
-    padding: 0 180px;
+    padding: 0 180px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -120,10 +120,11 @@ main {
     position: relative;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .card-title {
+    margin-top: 50px;
     width:100%;
     text-align: center;
     font-size: 1.5rem;
@@ -135,8 +136,8 @@ main {
     color: #4b4949;
     font-size: .8rem;
     font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .card>img {
@@ -159,7 +160,7 @@ main {
 
 /* Game banner section */
 .games-banner {
-    padding: 100px 180px;
+    padding: 200px 180px;
 }
 
 .games-banner-container {
@@ -264,6 +265,12 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     font-size: .7rem;
+}
+.social-icon{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    gap:20px;
 }
 
 
